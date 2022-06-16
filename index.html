@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITO INDIVIDUAL 3ª EVALUACIÓN - ISLA PEINADO HENRIQUEZ</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/d2/b6/d9/d2b6d9f420dd981e2387d7843e75feca.png">
+    <script src="js/script.js"></script>
+</head>
+<body onload="leerJSON();">
+    <div class="container-fluid">
+        <main class="tm-main">            
+            <div class="row tm-row tm-mb-45">
+                <div class="col-12">
+                    <h2>Consumir API REST</h2>
+                </div>                    
+            </div>
+    </div>
+    <P id="datos"></P >
+    <header class="tm-header" id="tm-header"> <div class="tm-header-wrapper">   
+    <p>Ver nota del alumno: <br> <br> 
+    <input type="button" value="Ver todas las notas" onclick="verTodos();"> <br> <br>
+    <input type="number" min="1" max="10" id="numero"> 
+    <input type="button" value="Filtrar por id" onclick="verAlumnoID();"> <br><br>
+    <input type="text"  id="nombre">
+    <input type="button" value="Filtrar por nombre" onclick="verAlumnoNombre();"> <br><br>
+    <input type="text"  id="apellidos">
+    <input type="button" value="Filtrar por apellidos" onclick="verAlumnoApellidos();"> <br>* debes introducir los 2 apellidos
+    </p>
+    </div></header>
+
+    <div class="container-fluid">
+        <main class="tm-main">            
+            <div class="row tm-row tm-mb-45">
+                <div class="col-12">
+                    <div id="listaPost"></div>
+                </div>                    
+            </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <main class="tm-main">            
+                <div class="row tm-row tm-mb-45">
+                    <div class="col-12">
+                        <hr>
+                        <p>HITO INDIVIDUAL 3ª EVALUACIÓN - ISLA PEINADO HENRIQUEZ</p>
+                    </div>                    
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
